@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="<?php echo e(asset('assets/images/logo-informatika.png')); ?>">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Informatika - Universitas Mulawarman</title>
+    <title><?php echo $__env->yieldContent('title'); ?></title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+    <script src="<?php echo e(mix('js/script.js')); ?>"></script>
+    <!-- Styles -->
     <?php echo app('Illuminate\Foundation\Vite')('resources/css/app.css'); ?>
+    <?php echo app('Illuminate\Foundation\Vite')('resources/js/app.js'); ?>  
+
 </head>
 
 <body>
