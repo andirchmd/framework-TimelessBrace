@@ -7,3 +7,7 @@
 # Dashboard
 ![image](https://github.com/andirchmd/framework-TimelessBrace/assets/114181058/ba772c4b-44fd-486e-89a1-c10d755e94f2)
 ![image](https://github.com/andirchmd/framework-TimelessBrace/assets/114181058/ac537528-fcdf-43cc-a2b9-a09969c5bda5)
+
+# Tabel
+![image](https://github.com/andirchmd/framework-TimelessBrace/assets/114181058/1617b9cb-427b-48ea-b408-9f1751ae6451)
+
