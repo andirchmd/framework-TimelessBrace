@@ -16,7 +16,7 @@ class DashboardController extends Controller
 {
     public function getStats()
     {
-        $totalCustomers = Customer::count();
+        $totalCustomers = Customers::count();
 
         return response()->json([
             'total_customers' => $totalCustomers

@@ -20,7 +20,7 @@ Dashboard - Customer
       <!-- Navigation items -->
       <a href="{{ Route('admin.dashboard') }}" class="mt-2 block rounded-lg bg-transparent px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-100">Dashboard</a>
       <a href="{{ Route('admin.customer') }}" class="mt-2 block rounded-lg bg-transparent px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-100">Customer</a>
-      <a href="#" class="active mt-2 block rounded-lg bg-transparent px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-100">Keranjang</a>
+      <a href="#" class="active mt-2 block rounded-lg bg-transparent px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-400 hover:text-black">Keranjang</a>
       <!-- TBA -->
     </div>
   </div>
@@ -31,6 +31,13 @@ Dashboard - Customer
       <div class="flex items-center">
         <h2 class="text-xl font-semibold text-gray-800">List Keranjang Customer</h2>
       </div>
+      <div class="flex items-center justify-end pr-6">
+        <a href="{{ route('logout') }}">
+            <button type="submit" class="text-sm text-white hover:text-black hover:bg-gray-400 cursor-pointer bg-[#B27423] py-1 px-3 rounded-md">
+                Logout
+            </button>
+        </a>
+    </div>
     </header>
     <main class="flex-1 overflow-y-auto overflow-x-hidden bg-gray-200">
       <!-- Table -->

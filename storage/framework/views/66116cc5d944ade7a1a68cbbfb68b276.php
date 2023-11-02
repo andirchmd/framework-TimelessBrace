@@ -10,7 +10,6 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-    <script src="<?php echo e(mix('js/script.js')); ?>"></script>
     <!-- Styles -->
     <?php echo app('Illuminate\Foundation\Vite')('resources/css/app.css'); ?>
     <?php echo app('Illuminate\Foundation\Vite')('resources/js/app.js'); ?>  
